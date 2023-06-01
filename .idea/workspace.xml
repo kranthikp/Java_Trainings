@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d1f96a5-21ab-4eb5-a65f-69738ddb6414" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/assignment/day2/atmwithaccounts/ATM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/assignment/day2/atmwithaccounts/ATMWithAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/assignment/day2/atmwithaccounts/Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learnings/Day1_HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learnings/day1/Day1_HelloWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learnings/Day2_Learning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learnings/day2/Day2_Learning.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,14 +31,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "E:/kkpanda/Java/HelloWorld/HelloWorld/src/main/java/assignment/day2/atmwithaccounts"
   }
-}</component>
-  <component name="RunManager" selected="Application.Day2_Learning">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\kkpanda\Java\HelloWorld\HelloWorld\src\main\java\assignment\day2\atmwithaccounts" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="assignment.day2.atmwithaccounts" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SimpleATM_WithArrays">
     <configuration name="Day1_HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learnings.day1.Day1_HelloWorld" />
       <module name="HelloWorld" />
@@ -77,8 +87,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SimpleATM_WithArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="assignment.day2.simpleatm.SimpleATM_WithArrays" />
+      <module name="HelloWorld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="assignment.day2.simpleatm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SimpleATM_WithArrays" />
         <item itemvalue="Application.Day2_Learning" />
         <item itemvalue="Application.SimpleATM" />
         <item itemvalue="Application.Day1_HelloWorld" />
