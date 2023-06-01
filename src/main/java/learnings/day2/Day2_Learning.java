@@ -1,7 +1,7 @@
-package learnings;
+package learnings.day2;
 
 public class Day2_Learning {
-    public static void main( String [] args){
+    public static void main(String[] args) {
         // single line comment
 
         /** multi line comment
@@ -29,21 +29,36 @@ public class Day2_Learning {
         System.out.println(num);
 
         // control statements - simple, if-else, switch-case...
-        if (age>18){
+        if (age > 18) {
             System.out.println("adult");
-        }
-        else{
+        } else {
             System.out.println("teenager");
         }
 
-        int [] numbers = {10, 20, 30, 40};
+        int[] numbers = {10, 20, 30, 40};
         System.out.println(numbers[1]);
         System.out.println(numbers.length);
 
         // for loop
-        System.out.println("print all array values");
+        System.out.println("print all array values using for");
         for (int i = 0; i < numbers.length; i++) {
-            System.out.println(numbers[i]);
+            System.out.println(i+" "+numbers[i]);
         }
+
+        // while loop
+        System.out.println("print all array values using while");
+        int j = 0;
+        while (j < numbers.length) {
+            System.out.println(j+" "+numbers[j]);
+            j++;
+        }
+
+        // do_while loop
+        System.out.println("print all array values using do_while");
+        int k = 3;
+        do {
+            System.out.println(k+" "+numbers[k]);
+            k--;
+        } while (k > numbers.length);
     }
 }
